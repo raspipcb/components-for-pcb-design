@@ -12,8 +12,9 @@
 
 ## Raspberry Pi CM4 / CM5 Connectors
 
-| DF40HC(3.0)-100DS-0.4V(51)  |  Hirose   |  Recommended by Raspberry Pi CM4 Datasheet |  3mm |
-| --------------------------- | --------- | ------------------------------------------ | ---- |
-| LBF29-G100S-B0R01           |  LXWCONN  |                                            |  3mm |
-| HC-PBB40C-100DS-0.4V-3.0-02 |  HCTL     |                                            |  3mm |
-| 10164227-1004A1RLF          |  Amphenol |  Recommended by Raspberry Pi CM5 Datasheet |  4mm |
+| Part                        |  Manufacturer |  Description                               |  Height from PCB |
+| --------------------------- | ------------- | ------------------------------------------ | ---------------- |
+| DF40HC(3.0)-100DS-0.4V(51)  |  Hirose       |  Recommended by Raspberry Pi CM4 Datasheet |  3mm             |
+| LBF29-G100S-B0R01           |  LXWCONN      |                                            |  3mm             |
+| HC-PBB40C-100DS-0.4V-3.0-02 |  HCTL         |                                            |  3mm             |
+| 10164227-1004A1RLF          |  Amphenol     |  Recommended by Raspberry Pi CM5 Datasheet |  4mm             |
