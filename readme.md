@@ -1,14 +1,32 @@
 # Electronic Components used by RaspiPCB
 
-## Power Supply and Power Distribution ICs
+## Buck Converters
 
-| Part                                                         | Description                                            | Input Voltage | Output Current | Quiescent Current | Example Design                              |
-| ------------------------------------------------------------ | ------------------------------------------------------ | ------------- | -------------- | ----------------- | ------------------------------------------- |
-| [TPS61288](https://www.ti.com/lit/ds/symlink/tps61288.pdf)   | 18-V 15-A Fully Integrated Synchronous Boost Converter | 2.0V ~ 18V    | 15A            | 110uA             | *air6systems* 14V 2A boost converter        |
-| [TPS62086](https://www.ti.com/lit/ds/symlink/tps62085.pdf)   | 3-A Step-Down Converter                                | 2.5V ~ 6.0V   | 3A             | 17uA              | *akshayylr* 3.5 ~ 5.5V input 3.3V 1A output |
-| [TLV704](https://www.ti.com/lit/ds/symlink/tlv704.pdf)       | 24-V 150-mA 3.2-μA Quiescent Current LDO               | 2.5V ~ 24V    | 150mA          | 3.2uA             | -                                           |
-| [LM66200](https://www.ti.com/lit/ds/symlink/lm66200.pdf)     | 1.6 V to 5 V 2.5-A Dual Ideal Diode                    | 1.6V ~ 5.5V   | 2.5A           | 1.32uA            | -                                           |
-| [TPS552892](https://www.ti.com/lit/ds/symlink/tps552892.pdf) |  36-V 8-A Fully Integrated Buck-boost Converter        | 3.0V ~ 36V    | 8A             | 760uA             |  alexanderhoerl 4 ~ 8V input 5V 4A output   |
+| Part                                                       | Description             | Input Voltage | Output Current | Quiescent Current | Example Design                              |
+| ---------------------------------------------------------- | ----------------------- | ------------- | -------------- | ----------------- | ------------------------------------------- |
+| [TPS62086](https://www.ti.com/lit/ds/symlink/tps62085.pdf) | 3-A Step-Down Converter | 2.5V ~ 6.0V   | 3A             | 17uA              | *akshayylr* 3.5 ~ 5.5V input 3.3V 1A output |
+
+## Boost Converters
+
+| Part                                                       | Description                                            | Input Voltage | Output Current | Quiescent Current | Example Design                       |
+| ---------------------------------------------------------- | ------------------------------------------------------ | ------------- | -------------- | ----------------- | ------------------------------------ |
+| [TPS61288](https://www.ti.com/lit/ds/symlink/tps61288.pdf) | 18-V 15-A Fully Integrated Synchronous Boost Converter | 2.0V ~ 18V    | 15A            | 110uA             | *air6systems* 14V 2A boost converter |
+
+## Buck-Boost Converters
+
+| Part                                                         | Description                                    | Input Voltage | Output Current | Quiescent Current | Example Design                           |
+| ------------------------------------------------------------ | ---------------------------------------------- | ------------- | -------------- | ----------------- | ---------------------------------------- |
+| [TPS552892](https://www.ti.com/lit/ds/symlink/tps552892.pdf) | 36-V 8-A Fully Integrated Buck-boost Converter | 3.0V ~ 36V    | 8A             | 760uA             | alexanderhoerl 4 ~ 8V input 5V 4A output |
+
+## LDO, Ideal Diodes, Load Switches
+
+| Part                                                       | Description                                | Input Voltage | Output Current | Quiescent Current | Example Design   |
+| ---------------------------------------------------------- | ------------------------------------------ | ------------- | -------------- | ----------------- | ---------------- |
+| [TLV704](https://www.ti.com/lit/ds/symlink/tlv704.pdf)     | 24V 150-mA 3.2-μA Quiescent Current LDO    | 2.5V ~ 24V    | 150mA          | 3.2uA             | -                |
+| [LM66200](https://www.ti.com/lit/ds/symlink/lm66200.pdf)   | 1.6 V to 5 V 2.5-A Dual Ideal Diode        | 1.6V ~ 5.5V   | 2.5A           | 1.32uA            | -                |
+| [TPS22917](https://www.ti.com/lit/ds/symlink/tps22917.pdf) | 5.5V 2A 80mΩ Ultra-Low Leakage Load Switch | 1V ~ 5.5V     | 2A             | 0.5uA             | instantasset-rfm |
+| [TPS22995](https://www.ti.com/lit/ds/symlink/tps22995.pdf) |  3.8A 18mΩ On-Resistance Load Switch       | 1.5V ~ 5.5V   | 3.8A           | 10uA              | akshayylr        |
+| [TPS22997](https://www.ti.com/lit/ds/symlink/tps22997.pdf) |  5.5V 10A 4mΩ On-Resistance Load Switch    | 1.5V ~ 5.5V   | 10A            | 10uA              | elesenseno-ups   |
 
 ## Raspberry Pi CM4 / CM5 Connectors
 
